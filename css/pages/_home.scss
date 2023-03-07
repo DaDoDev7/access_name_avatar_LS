@@ -5,7 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(../img/background.jpg)no-repeat center/cover ;
+    background-image: url(../img/background.jpg) ;
+    background-position: cover;
+    background-repeat: no-repeat;
     position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:white;
