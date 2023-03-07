@@ -1,6 +1,9 @@
-.wrapper{
+body{
     height: 100vh;
-    width: 100%;
+    overflow: hidden;
+}
+.wrapper{
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +123,7 @@ h1{
         width:130px;
         object-fit: cover;
         border: 5px solid rgba(0, 0, 0, 0.58);
+      
     }
 }
 .settingsicon{
