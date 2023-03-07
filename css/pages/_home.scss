@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     background-image: url(../img/background.jpg) ;
-    background-position: center/cover;
+    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,6 +81,7 @@ h1{
 
 .profile{
     width: 20%;
+    min-width: 300px;
     background: rgba(0, 0, 0, 0.298);
     border-radius: 5px;
     position: absolute;
